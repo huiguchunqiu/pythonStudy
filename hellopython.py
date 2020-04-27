@@ -94,9 +94,9 @@ sqs = ['2', '2', 'sw']
 print(str1.join(sqs))
 
 
-a = input('input:')
+# a = input('input:')
 
-print(a)
+# print(a)
 
 
 i = 2
@@ -111,4 +111,8 @@ while i < 100:
     i = i + 1
 print("Good bye!")
 
+word = 'hello word'
+print(word[2])
+
+print(word[1])
 
