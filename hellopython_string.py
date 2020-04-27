@@ -116,3 +116,63 @@ print(word[2])
 
 print(word[1])
 
+str2 = "python example...wow!!!"
+print(str2)
+str3 = str2.ljust(50, 's')   # 填充字符必须为单字符
+print(str3)
+
+str2 = 'PyThon ExamPle ... WoW!!!'
+str3 = str2.lower()
+print(str3)
+
+str4 = '   python example'
+str5 = str4.lstrip()
+str6 = str4.lstrip('   py')
+print(str4, str5, str6)
+
+in_tab = 'a,e,i,o,u'
+out_tab = '102030405'
+
+tran_tab = str.maketrans(in_tab, out_tab)
+
+str7 = 'this is string example....wow!!!'
+print(str7.translate(tran_tab))
+str8 = 'this is abc lalala'
+str9 = 'this-is-abc-lalala!!!'
+print('max is ' + max(str8), ";  min is  " + min(str9))
+
+str1 = 'www.thefool.club'
+print(str1.partition('.'))
+
+str2 = 'this is string example...wow!!!'
+print(str2.replace('is', 'was', 1))
+
+str3 = 'this is really a string example.'
+
+substr = 'is'
+print(str3.rfind(substr))
+print(str3.rindex(substr))
+print(str3.rindex('xa'))
+print(str3.index('a'))
+print(str3.rjust(50, 's'))
+print(str1.rpartition('.'))
+str4 = '   this is string example!!!   d   8989'
+print(str4.rstrip('89'))
+str3 = 'al slid\nssdd sddd \\\s\tsd '
+str5 = 'google#baidu#taobao'
+print(str5.split('#'), str5.split('#', 1), str3.split())
+
+str6 = 'sid\n\sds\rsssd\ns\tssee\n\t'
+print(str6.splitlines(), str6.splitlines(True))
+
+str7 = '   lsdi ss  '
+print(str7.strip())
+
+str8 = 'Made in china'
+
+print(str8.swapcase())
+
+print(str8.title())
+
+print(str8.upper())
+print(str8.zfill(30))

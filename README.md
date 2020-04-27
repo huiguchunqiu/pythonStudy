@@ -43,10 +43,10 @@
       31. string.strip([chars]) 在字符窜上执行lstrip() 和 rstrip()
       32. string.swapcase() 大写转小写，小写转大写
       33. string.title() 标题话字符串
-      34. translate(table, deletechars="") 转换字符
-      35. upper()  小写转为大写
-      36. zfill() 
-      37. isdecimal()
+      34. string.translate(table, deletechars="") 转换字符
+      35. string.upper()  小写转为大写
+      36. string.zfill(width)       返回长度为width的字符有对其前面填充0
+      37. string.isdecimal()   是否只包含十进制字符
    
   
   
