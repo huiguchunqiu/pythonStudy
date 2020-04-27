@@ -98,6 +98,7 @@ a = input('input:')
 
 print(a)
 
+
 i = 2
 while i < 100:
     j = 2
@@ -109,3 +110,5 @@ while i < 100:
         print(i, ' 是素数')
     i = i + 1
 print("Good bye!")
+
+
