@@ -22,6 +22,7 @@ it = iter(list2)
 
 print('sss')
 
+
 class MyNumbers:
     def __iter__(self):
         self.a = 1
@@ -35,11 +36,14 @@ class MyNumbers:
         else:
             raise StopIteration
 
-myclass = MyNumbers()
-myiter = iter(myclass)
-for x in myiter:
+
+myClass = MyNumbers()
+myIter = iter(myClass)
+for x in myIter:
     print(x)
 print('sds')
+
+
 def jidan(n):
     a, b, counter = 0, 1, 0
     while True:
@@ -48,6 +52,8 @@ def jidan(n):
         yield a
         a, b = b, a+b
         counter += 1
+
+
 f = jidan(10)
 
 while True:
@@ -55,3 +61,6 @@ while True:
         print(next(f), end=" ")
     except StopIteration:
         sys.exit()
+
+
+
